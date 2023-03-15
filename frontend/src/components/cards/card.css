@@ -1,0 +1,14 @@
+.card-container{
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    width: 20vw;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+    transition: all .4s;
+}
+
+@media only screen and (max-width: 800px) {
+    .card-container{
+       width: 80vw;
+    }
+}

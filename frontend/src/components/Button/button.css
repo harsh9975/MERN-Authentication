@@ -1,0 +1,44 @@
+.button-container{
+    margin: 10px 0;
+}
+
+.primary-button{
+    min-width: 130px;
+    height: 40px;
+    font-weight: 700;
+    font-size: 14px;
+    color:#fff;
+    background-color: #186ffb;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all .4s;
+    user-select: none;
+}
+
+.primary-button:hover{
+    background-color:#fff;
+    color: #186ffb;
+    border: 1px solid #186ffb;
+    transition: all .4s;
+}
+
+.secondary-button{
+    min-width: 130px;
+    height: 40px;
+    font-weight: 700;
+    font-size: 14px;
+    background-color:#fff;
+    color: #186ffb;
+    border: 1px solid #186ffb;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all .4s;
+    user-select: none;
+}
+
+@media only screen and (max-width: 600px) {
+	 .primary-button,.secondary-button{
+        width: 100%;
+     }
+}

@@ -1,0 +1,8 @@
+.login-container{
+    width: 100%;
+    height:calc(100vh - 65px);
+    display: grid;
+    place-content: center;
+    background-color: #fff;
+    padding-top: 65px;
+}
